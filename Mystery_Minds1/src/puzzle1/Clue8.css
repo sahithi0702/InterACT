@@ -1,0 +1,68 @@
+.b8 {
+    background-image: url('https://wallpapercrafter.com/desktop/81116-moon-person-photography-hd-dark-night-alone-sad.jpg');
+    background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height to 100vh to cover the entire viewport height */
+  display: flex; /* Add flex to align content in the center */
+  justify-content: center; /* Align content horizontally in the center */
+  align-items: center; /* Align content vertically in the center */
+  background-repeat: no-repeat;
+  }
+  img{
+
+        width: 2%;
+        height:2%;
+  }
+  .text-center {
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: lightblue;
+  }
+  
+  h2 {
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .reset-button {
+    margin-top: 10px;
+  }
+  
+  .hint-button {
+    margin-top: 20px;
+  }
+  
+  .hint-message {
+    color: yellow;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    .reset-button {
+      font-size: 14px;
+    }
+  
+    .hint-button {
+      font-size: 14px;
+    }
+  }

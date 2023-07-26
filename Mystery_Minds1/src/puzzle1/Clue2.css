@@ -1,0 +1,26 @@
+.b2 {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/007/188/453/original/abstract-blur-background-with-pastel-color-free-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height to 100vh to cover the entire viewport height */
+  display: flex; /* Add flex to align content in the center */
+  justify-content: center; /* Align content horizontally in the center */
+  align-items: center; /* Align content vertically in the center */
+  }
+  
+  /* .container {
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+  } */
+
+  
+  @media screen and (max-width: 600px) {
+    .input-container {
+      flex-direction: column;
+    }
+  
+  }

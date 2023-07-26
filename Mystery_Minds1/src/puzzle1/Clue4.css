@@ -1,0 +1,10 @@
+.b4 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7cWm3cTXvK2WlsW-nIEcu0VZSqOMLr7QFiQ&usqp=CAU');
+    background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height to 100vh to cover the entire viewport height */
+  display: flex; /* Add flex to align content in the center */
+  justify-content: center; /* Align content horizontally in the center */
+  align-items: center; /* Align content vertically in the center */
+  background-repeat: no-repeat;
+  }

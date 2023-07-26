@@ -1,0 +1,49 @@
+.b6 {
+  background-image: url('https://colibriwp.com/blog/wp-content/uploads/2019/06/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height to 100vh to cover the entire viewport height */
+  display: flex; /* Add flex to align content in the center */
+  justify-content: center; /* Align content horizontally in the center */
+  align-items: center; /* Align content vertically in the center */
+  background-repeat: no-repeat;
+}
+
+
+.qrcode-container img {
+  max-width: 100px; /* Adjust the size of QR code as needed */
+  height: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Styles for mobile phones */
+  .b6 {
+    background-size: contain;
+  }
+
+  .qrcode-container img {
+    max-width: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* Styles for tablets */
+  .b6 {
+    background-size: contain;
+  }
+
+
+
+  .qrcode-container img {
+    max-width: 90px;
+  }
+}
+.button6{
+  display: block;
+  align-items: center;
+  margin: auto;
+}
+.foot{
+  background-color: rgb(156, 126, 126);
+}

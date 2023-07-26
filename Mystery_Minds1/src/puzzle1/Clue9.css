@@ -1,0 +1,52 @@
+.b9 {
+    background-image: url('https://m.media-amazon.com/images/S/aplus-media-library-service-media/038c5219-f6f9-465c-9331-c9e295443093.__CR0,0,970,300_PT0_SX970_V1___.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+  
+  }
+  
+  /* .container {
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+  } */
+  
+
+  .image-container {
+    float: right;
+  }
+
+
+  
+  @media screen and (max-width: 600px) {
+    .input-container {
+      flex-direction: column;
+    }
+
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .button-container {
+      flex-wrap: wrap;
+    }
+  
+    .btn {
+      flex-basis: 100%;
+    }
+  }
+  

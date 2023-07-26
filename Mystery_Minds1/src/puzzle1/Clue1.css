@@ -1,0 +1,66 @@
+.b1{
+    background-image: url('https://www.wikihow.com/images/thumb/c/c9/Teach-Kids-to-Tell-Time-Step-21.jpg/aid961200-v4-1200px-Teach-Kids-to-Tell-Time-Step-21.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  background-position: center center;
+  }
+  
+  .main-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(57vh - 40px); 
+  }
+  
+  .form-container1 {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .label1 {
+    margin-left: 10px;
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  .input1 {
+    margin-left: 10px;
+    width: 100%;
+  }
+  
+  .buttons-container1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button1 {
+    margin: 0 5px;
+  }
+  
+  .hint-message1 {
+    padding-top: 32px;
+    text-align: center;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .question1 {
+      font-size: 60px;
+    }
+  
+    .label1 {
+      font-size: 16px;
+    }
+  
+    .input1 {
+      margin-left: 5px;
+    }
+  
+    .hint-message1 {
+      padding-top: 16px;
+    }
+  }
+  

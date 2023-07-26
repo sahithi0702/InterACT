@@ -1,0 +1,58 @@
+.Hint1 {
+    margin-left: 60%;
+  }
+  
+  .f {
+    background-color: papayawhip;
+  }
+  
+  .btnlink {
+    float: right;
+    width: 40%;
+  }
+  
+  .label {
+    font-size: 2rem;
+    
+  }
+  
+  .body {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  
+  .head {
+    background-color: rgb(0, 113, 8);
+    border-radius: 8px;
+  }
+  
+  .card {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bodytop{
+    background-image: linear-gradient(to right, rgb(232, 32, 32), rgb(6, 132, 44));
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .input{
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(8, 9, 9);
+  }
+  .leveltitle{
+    text-decoration:underline;
+    text-shadow: 1px 1px 10px rgb(253, 133, 255);
+  }
+  .remain1{
+   color: red;
+  }
